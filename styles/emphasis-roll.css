@@ -1,0 +1,25 @@
+.dnd5e2.application.roll-configuration .dialog-buttons button[data-action="emphasis"] {
+  border-color: #8f5938;
+  box-shadow: 0 0 0 1px rgb(143 89 56 / 25%) inset;
+}
+
+.dnd5e2.application.roll-configuration .dialog-buttons button[data-action="emphasis"]:hover,
+.dnd5e2.application.roll-configuration .dialog-buttons button[data-action="emphasis"]:focus-visible {
+  border-color: var(--dnd5e-color-gold, #c9ad6a);
+  box-shadow: 0 0 5px rgb(201 173 106 / 70%);
+}
+
+.dice-tray .emphasis-roll__tray-button .emphasis-roll__tray-icon {
+  background-color: var(--color-light-2, #f1f1e6);
+  -webkit-mask: url("../assets/emphasis-d20.svg") center / contain no-repeat;
+  mask: url("../assets/emphasis-d20.svg") center / contain no-repeat;
+}
+
+.dice-tray .emphasis-roll__tray-button:hover .emphasis-roll__tray-icon {
+  background-color: var(--color-warm-2, #fca35c);
+}
+
+#interface.theme-light .dice-tray .emphasis-roll__tray-button .emphasis-roll__tray-icon,
+body:has(#interface.theme-light) .application .dice-tray .emphasis-roll__tray-button .emphasis-roll__tray-icon {
+  background-color: var(--color-dark-2, #222);
+}

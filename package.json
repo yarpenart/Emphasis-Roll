@@ -1,0 +1,10 @@
+{
+  "name": "yarpenart-emphasis-roll",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node --check scripts/emphasis-roll.js && node --check scripts/emphasis-logic.js && node --test"
+  }
+}
