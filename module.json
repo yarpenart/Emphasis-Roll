@@ -2,16 +2,16 @@
   "id": "yarpenart-emphasis-roll",
   "title": "YarpenArt: Emphasis Roll",
   "description": "Adds Brennan Lee Mulligan's Rolling with Emphasis mechanic to D&D 5e rolls, including configurable roll dialogs and Dice Tray support.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     {
       "name": "YarpenArt"
     }
   ],
   "compatibility": {
-    "minimum": "13",
-    "verified": "13.351",
-    "maximum": "13"
+    "minimum": "14",
+    "verified": "14.365",
+    "maximum": "14"
   },
   "relationships": {
     "systems": [
@@ -30,9 +30,8 @@
         "id": "dice-calculator",
         "type": "module",
         "compatibility": {
-          "minimum": "3.5.5",
-          "verified": "3.5.5",
-          "maximum": "3.5.5"
+          "minimum": "3.7.2",
+          "verified": "4.0.5"
         },
         "reason": "Adds the optional Emphasis tile to Dice Tray."
       },

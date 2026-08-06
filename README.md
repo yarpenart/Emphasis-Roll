@@ -4,9 +4,9 @@ Moduł dodaje mechanikę **Rolling with Emphasis** do Foundry VTT. Rzut wykonuje
 
 ## Zgodność
 
-- Foundry VTT 13, build 351
+- Foundry VTT 14, build 365
 - dnd5e 5.3.3
-- Dice Tray 3.5.5 (opcjonalnie)
+- Dice Tray 3.7.2+ (opcjonalnie, zweryfikowano 4.0.5)
 - Dice So Nice (opcjonalnie)
 
 ## Funkcje
@@ -42,7 +42,7 @@ Rzuty przeciw śmierci są domyślnie wyłączone. Pozostałe obsługiwane kateg
 2. W GitHub Desktop wybierz **Add an Existing Repository from your Hard Drive** i wskaż ten katalog.
 3. Opublikuj repozytorium.
 4. Przed wydaniem zmień `version` w `module.json` oraz `package.json`.
-5. Utwórz i wypchnij tag, np. `v0.1.0`.
+5. Utwórz i wypchnij tag, np. `v0.1.1`.
 
 Workflow automatycznie uruchomi testy i doda do GitHub Release pliki `module.json` oraz `module.zip`.
 

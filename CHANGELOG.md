@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Aktualizacja do Foundry VTT 14 Build 365.
+- Integracja Dice Tray zweryfikowana z linią V14 (3.7.2+ i 4.0.5).
+
 ## 0.1.0
 
 - Pierwsza wersja modułu.
