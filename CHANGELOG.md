@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Zweryfikowano integrację, manifest, składnię i testy modułu z Foundry VTT 14 Build 365.
+
 ## 0.1.2
 
 - Przycisk Emphasis w systemowym oknie rzutu używa teraz jasnego tekstu w ciemnym motywie i ciemnego tekstu w jasnym motywie Foundry.
